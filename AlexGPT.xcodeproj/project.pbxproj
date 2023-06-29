@@ -24,6 +24,7 @@
 		A68F53CC2A45F7740020E7E4 /* DismissView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A68F53CB2A45F7740020E7E4 /* DismissView.swift */; };
 		A68F53CE2A45F77A0020E7E4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A68F53CD2A45F77A0020E7E4 /* GoogleService-Info.plist */; };
 		A69718FC2A11B39000C7839F /* ConversationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69718FB2A11B39000C7839F /* ConversationView.swift */; };
+		A6C37AA52A4DBBCB00C26B22 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = A6C37AA42A4DBBCB00C26B22 /* FirebaseMessaging */; };
 		A6EC6A2C2A10F2D80017F121 /* SwiftOpenAI in Frameworks */ = {isa = PBXBuildFile; productRef = A6EC6A2B2A10F2D80017F121 /* SwiftOpenAI */; };
 		A6EC6A2E2A10F34C0017F121 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6EC6A2D2A10F34C0017F121 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
@@ -73,6 +74,7 @@
 			files = (
 				A682FF962A46008E00A3AE7A /* FirebaseAnalyticsSwift in Frameworks */,
 				A6EC6A2C2A10F2D80017F121 /* SwiftOpenAI in Frameworks */,
+				A6C37AA52A4DBBCB00C26B22 /* FirebaseMessaging in Frameworks */,
 				A68F53B72A45F4E80020E7E4 /* FirebaseAuth in Frameworks */,
 				A682FF942A46008700A3AE7A /* FirebaseAnalytics in Frameworks */,
 			);
@@ -205,6 +207,7 @@
 				A68F53B62A45F4E80020E7E4 /* FirebaseAuth */,
 				A682FF932A46008700A3AE7A /* FirebaseAnalytics */,
 				A682FF952A46008E00A3AE7A /* FirebaseAnalyticsSwift */,
+				A6C37AA42A4DBBCB00C26B22 /* FirebaseMessaging */,
 			);
 			productName = AlexGPT;
 			productReference = A603F2C72A0E8C3B00D4D05F /* AlexGPT.app */;
@@ -695,6 +698,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = A68F53B52A45F4E80020E7E4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAuth;
+		};
+		A6C37AA42A4DBBCB00C26B22 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A68F53B52A45F4E80020E7E4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
 		};
 		A6EC6A2B2A10F2D80017F121 /* SwiftOpenAI */ = {
 			isa = XCSwiftPackageProductDependency;

@@ -16,7 +16,7 @@ final class ViewModel: ObservableObject{
     
 
     
-    var openAI = SwiftOpenAI(apiKey: "Introduce tu API key de chatGPT aqui!!")
+    var openAI = SwiftOpenAI(apiKey: "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")
     
     func send(message: String) async{
         let optionalParameters = ChatCompletionsOptionalParameters(temperature: 0.7, stream: true, maxTokens: 300)
