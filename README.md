@@ -7,4 +7,4 @@ Para poder utilizar la app correctamente necesitaras una clave API de ChatGPT. P
 Necesitaras una cuenta gratuita a FireBase, crear un proyecto y poner tu clave API en el archivo GoogleService-Info.plist
 
 ![Vista de inicio de la app]
-(https://raw.githubusercontent.com/alexscamg/alexgpt/main/AssetsReadme/img/VistaInicio.jpg)
+(https://raw.githubusercontent.com/alexscamg/alexgpt/main/AssetsReadme/img/VistaInicio.jpeg)
