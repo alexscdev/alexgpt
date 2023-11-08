@@ -1,5 +1,5 @@
 # alexgpt
-Una app para conectarse a ChatGPT desarrollada por mi en Swift.
+Una app para conectarse a ChatGPT desarrollada en Swift.
 <br> Puede probar la app aqui: https://appetize.io/app/huw53qbhgfo66w5nmrnw7fuouy?device=iphone14pro&osVersion=17.0
 
 ## ¿Como funciona la app ?
